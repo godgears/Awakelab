@@ -11,7 +11,7 @@ public class Main {
 		
 	}
 	
-	
+	//hola
 	public int[] solicitarNumero() {
 		
 		int lista_numeros[] = new int[14];
@@ -20,7 +20,7 @@ public class Main {
 			int numero = 0;
 			
 			for (int i=0; i<lista_numeros.length; i++) {	
-				System.out.println("Introduce un número");			
+				System.out.println("Introduce un nï¿½mero");			
 				numero = reader.nextInt();
 				lista_numeros[i] = numero;
 			}
