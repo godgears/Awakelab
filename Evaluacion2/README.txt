@@ -11,6 +11,9 @@ Luego de ponerle lo correspondiente a cada clase de debe realizar la clase Main 
 
 Esta Clase Contiene un arreglo de 10 posiciones que tienen diferentes objetos de diferentes clases a eleccion del programador en este caso, realizando la creacion de estos objetos a gustos personales y con datos imaginarios.
 
+luego de crear estos objetos se debe comprobar el color y consumo energetico, con los siguientes metodos
+comprobarColor() Y comprobarConsumoEnergetico().
+
 Se pudo llegar a la solucion sin nungun problema, con algun inconveniente para poder llamar algunos metodos de clases hijas, tuve que investigar sobre el operador "instanceof" para poder llamar el metodo de una clase especifica
 
 con esto pude lograr el calculo de los precios establecidos sin mayor problema.

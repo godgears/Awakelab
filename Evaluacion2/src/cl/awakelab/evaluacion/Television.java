@@ -20,17 +20,17 @@ public class Television extends Electrodomestico{
      */
     public int precioFinal(){
         //Invocamos el método precioFinal del método padre
-        int plus=super.precioFinal();
+        int incremento=super.precioFinal();
   
         //Añadimos el codigo necesario
         if (resolucion>40){
-            plus+=precioBase*0.3;
+        	incremento+=precioBase*0.3;
         }
         if (sintonizadorTDT){
-            plus+=50;
+        	incremento+=50;
         }
   
-        return plus;
+        return incremento;
     }
   
     //Constructor
