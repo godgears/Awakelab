@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Ejercicio Grupal" id="84682E99-9F8D-9B56-6557-1E6B1ADCE039" version="3.5">
-<createdBy>Alumno</createdBy>
-<createdTime>2020-03-09 21:23:15 UTC</createdTime>
-<ownerDesignName>Ejercicio Grupal</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>84682E99-9F8D-9B56-6557-1E6B1ADCE039</designId>
-</OSDM_Design>

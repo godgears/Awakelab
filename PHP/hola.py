@@ -1,2 +1,0 @@
-msg="hola"
-print(msg)
