@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C19178D1-9667-9E0E-A1FB-5C1548A86377" containerWithKeyObject="D4DDB4E2-457F-B602-E06A-6E7B48A5DD99" localFKIndex="90C19E99-D634-89FA-C978-16904CF059D0" name="PRODUCTO_PROVEEDOR_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 21:51:48 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<referredTableLongName>PROVEEDOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9380DB48-F4BF-683B-77AE-13F9E7B4F227</referredTableID>
+<keyObject>32199D4F-66B0-2539-554D-0D52950B53D9</keyObject>
+<referredKeyID>32199D4F-66B0-2539-554D-0D52950B53D9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RUT_PROVEEDOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

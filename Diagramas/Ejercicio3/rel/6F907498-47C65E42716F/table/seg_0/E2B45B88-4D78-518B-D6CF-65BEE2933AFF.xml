@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2B45B88-4D78-518B-D6CF-65BEE2933AFF" name="Profesor">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-06 23:12:16 UTC</createdTime>
+<ownerDesignName>Ejercicio3</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DNI" id="24217DC6-2543-2540-F52F-30331F4C3414">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-06 23:14:08 UTC</createdTime>
+<ownerDesignName>Ejercicio3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="3D734999-FD2C-B74A-99E1-94A322E122DD">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-06 23:14:21 UTC</createdTime>
+<ownerDesignName>Ejercicio3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="DE5C284A-E707-3C3C-1998-84D9144B7B42">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-06 23:14:36 UTC</createdTime>
+<ownerDesignName>Ejercicio3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="E22A479E-7D5C-037C-97EE-C52D65F25AD4">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-06 23:15:29 UTC</createdTime>
+<ownerDesignName>Ejercicio3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DC90E98-21B9-A2C0-1205-59D1BA25E31C" name="Profesor_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-06 23:14:08 UTC</createdTime>
+<ownerDesignName>Ejercicio3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24217DC6-2543-2540-F52F-30331F4C3414"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

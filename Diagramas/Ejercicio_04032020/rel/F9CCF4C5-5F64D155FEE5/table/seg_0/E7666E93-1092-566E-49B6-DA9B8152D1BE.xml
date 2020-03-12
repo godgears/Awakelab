@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7666E93-1092-566E-49B6-DA9B8152D1BE" name="VENTA">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 21:07:54 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<abbreviation>VENT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VENTA" id="F26F96D9-C4EE-788E-0828-72F8FA1F0046">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 22:22:12 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_VTA" id="5D92AC7D-A2D3-DA47-54FA-748395F96BDE">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 22:23:05 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUT_CLIENTE" id="B3725662-CAC7-B3E3-437B-CF68E2B3F209">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 22:23:38 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="655C0BE3-0D5C-D539-8672-5F6DF7B92AA8" referredColumn="C8E38FA6-54F5-B511-9022-47910167E5B3"/>
+</associations>
+</Column>
+<Column name="DESCUENTO" id="6F4DE770-4847-C6CF-1827-19EFFF8B312F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 22:23:56 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTO_FINAL" id="083C507E-7FE4-6621-1EDD-51F2728D607E">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 22:24:09 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_FACT" id="9330CF11-2107-C49D-CC46-939CB8D7A576">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 22:29:23 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9DBC51B-7B4D-49BF-9FB0-FEED6129F2B7" referredColumn="E79E1E3E-7302-F0F9-A6E6-F2938CB5EBCD"/>
+</associations>
+</Column>
+<Column name="ID_PROD" id="EB82C8FB-BC94-87FE-5ADC-2F4FD9091BAA">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 22:35:35 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBF44B16-4493-525B-4B9F-E4043E0912A3" referredColumn="411BFCF7-234A-5C3E-4CF7-49FF2824F730"/>
+</associations>
+</Column>
+<Column name="CANT_PROD" id="553BFD6E-AFD3-2896-6B83-A24195989D3F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 22:40:34 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTO_TOTAL_PROD" id="95C9F85B-497D-CA22-AA43-2ADFB10F405B">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 22:42:09 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88875116-03AE-84DD-2C6E-676C208F057E" name="VENTA_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 22:35:16 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F26F96D9-C4EE-788E-0828-72F8FA1F0046"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02B5568C-2E62-5E6D-4790-443D32A889BF" name="VENTA_FACTURA_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 22:29:23 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9330CF11-2107-C49D-CC46-939CB8D7A576"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B852769-37AA-6A25-623A-C0C9B3371CFE" name="VENTA_PRODUCTO_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 22:35:35 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB82C8FB-BC94-87FE-5ADC-2F4FD9091BAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FAC4465-DCD9-7AF3-C3D2-1143800386C1" name="CLIENTE_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 22:38:01 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3725662-CAC7-B3E3-437B-CF68E2B3F209"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

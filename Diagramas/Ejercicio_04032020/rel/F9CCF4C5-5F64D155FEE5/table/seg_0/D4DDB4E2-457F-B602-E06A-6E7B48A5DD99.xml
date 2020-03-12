@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4DDB4E2-457F-B602-E06A-6E7B48A5DD99" name="PRODUCTO">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 20:19:57 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>PROD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PROD" id="411BFCF7-234A-5C3E-4CF7-49FF2824F730">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 21:41:21 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PROD" id="516AC47B-6CB4-9B3C-E4AD-D2E9A01A001E">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 21:43:33 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO_ACTUAL_PROD" id="E4DCC7B3-A3B2-CEAF-9370-11239B34A40F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 21:43:41 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STOCK_PROD" id="39A159A3-31F1-CCF3-8D41-2F6098C48A9A">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 21:43:46 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PROV" id="AEA4DD55-F21A-F2CC-93E7-0F2335306458">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 21:51:32 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C19178D1-9667-9E0E-A1FB-5C1548A86377" referredColumn="E23A004D-80A7-E23C-2B35-BF6B06018832"/>
+</associations>
+</Column>
+<Column name="ID_CATEGORIA" id="FDDD4622-9ABE-D8BE-2274-E123B301043A">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 21:56:19 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBB1243B-A8AE-6995-9CD7-8ABCCA64F15C" referredColumn="9B3FAE49-CC08-558E-DCA9-C7615943A998"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88ADB9B3-EA45-FD82-A890-2CF38AB63680" name="PRODUCTO_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 21:41:21 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="411BFCF7-234A-5C3E-4CF7-49FF2824F730"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90C19E99-D634-89FA-C978-16904CF059D0" name="PRODUCTO_PROVEEDOR_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 21:51:48 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEA4DD55-F21A-F2CC-93E7-0F2335306458"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0D010D5-F1EE-A289-A637-A72485E712D5" name="PRODUCTO_CATEGORIA_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-03-04 21:59:51 UTC</createdTime>
+<ownerDesignName>Ejercicio_04032020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDDD4622-9ABE-D8BE-2274-E123B301043A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
