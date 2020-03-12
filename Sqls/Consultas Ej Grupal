@@ -1,0 +1,21 @@
+Select Apellido_Paterno from Empleado
+Select DISTINCT Apellido_Paterno from Empleado
+Select * from Empleado
+Select Nombre,Apellido_Paterno,Apellido_Materno from Empleado
+Select Cod_Departamento_FK from Empleado
+Select DISTINCT Cod_Departamento_FK from Empleado
+SELECT Nombre||' '||Apellido_Paterno||' ' ||Apellido_Materno as Nombre_Completo FROM empleado
+SELECT Upper(Nombre||' '||Apellido_Paterno||' ' ||Apellido_Materno) as Nombre_Completo FROM empleado
+SELECT Lower(Nombre||' '||Apellido_Paterno||' ' ||Apellido_Materno) as Nombre_Completo FROM empleado
+SELECT SUBSTR(rut,1,INSTR(rut,'-')-1)RUT, SUBSTR(rut,INSTR(rut,'-')+1,1)DV FROM empleado;
+Select nombre,(presupuesto-gastos) as Total from departamento
+Select nombre, presupuesto from departamento order by presupuesto
+Select nombre from departamento order by nombre
+Select nombre from departamento order by nombre desc
+Select nombre, apellido_paterno, apellido_materno from empleado order by apellido_paterno
+SELECT * FROM (SELECT nombre,presupuesto FROM departamento ORDER BY presupuesto DESC) WHERE rownum <= 3
+SELECT * FROM (SELECT nombre,presupuesto FROM departamento ORDER BY presupuesto) WHERE rownum <= 3
+SELECT * FROM (SELECT nombre,gastos FROM departamento ORDER BY gastos DESC) WHERE rownum <= 3
+SELECT * FROM (SELECT nombre,gastos FROM departamento ORDER BY gastos) WHERE rownum <= 3
+SELECT * FROM empleado WHERE ROWNUM<=7 MINUS SELECT * FROM empleado WHERE ROWNUM<=2
+Select nombre, presupuesto from departamento where presupuesto>=1500000

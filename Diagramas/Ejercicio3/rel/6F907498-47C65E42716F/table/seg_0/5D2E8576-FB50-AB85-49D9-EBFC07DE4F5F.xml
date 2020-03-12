@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D2E8576-FB50-AB85-49D9-EBFC07DE4F5F" name="Curso">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-06 23:13:01 UTC</createdTime>
+<ownerDesignName>Ejercicio3</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Curso" id="96A3A3AC-EA88-1D85-7E48-5AD85D67B640">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-06 23:38:59 UTC</createdTime>
+<ownerDesignName>Ejercicio3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Delegado_Curso" id="F7EEF54E-FB5D-FE78-5CEE-120ECE66A3A7">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-06 23:38:59 UTC</createdTime>
+<ownerDesignName>Ejercicio3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA893FDB-3BD6-E27D-123F-95A475F6C442" name="Curso_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-06 23:38:59 UTC</createdTime>
+<ownerDesignName>Ejercicio3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96A3A3AC-EA88-1D85-7E48-5AD85D67B640"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
