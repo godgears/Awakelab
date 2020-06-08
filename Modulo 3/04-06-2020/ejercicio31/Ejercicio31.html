@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 31</title>
+
+    <style>
+        #contcolores{
+            width: 100%;
+            height: 100px;
+            background-color: black;
+        }
+
+        .slider{
+            width: 300px;
+            color: rgb(30,40,50);
+        }
+    </style>
+    <script src="jquery-3.5.1.js"></script>
+    <script src="Ejercicio31.js"></script>
+</head>
+<body>
+    Rojo: <br/>
+    <input type="range" min="0" max="255" value="0" name="sdrojo" id="sdrojo" />
+    <input type="text" name="txtrojo" id="txtrojo" value="0" /><br/>
+
+    Verde: <br/>
+    <input type="range" min="0" max="255" value="0" name="sdverde" id="sdverde" />
+    <input type="text" name="txtverde" id="txtverde" value="0" /><br/>
+
+    Azul: <br/>
+    <input type="range" min="0" max="255" value="0" name="sdazul" id="sdazul" />
+    <input type="text" name="txtazul" id="txtazul" value="0" /><br/><br/>
+
+    <div id="contcolores">Esta caja cambia de color</div>
+
+</body>
+</html>
