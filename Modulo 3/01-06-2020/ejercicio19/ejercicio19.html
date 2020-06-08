@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Calculadora</title>
+    <style>
+        button{
+            width: 40px;
+            height: 40px;
+        }
+		
+		input[type="text"]{
+			width: 100%;
+			height: 50px;
+		}
+    </style>
+</head>
+<body>
+
+<script src="ejercicio19.js"></script>
+
+<input type="text" name="resultado" id="resultado" value="0" readonly />
+<br/><br/>
+<table>
+    <tr>
+        <td><button id="n7" value="7" onclick="agregar(7)">7</button></td>
+        <td><button id="n8" value="8" onclick="agregar(8)">8</button></td>
+        <td><button id="n9" value="9" onclick="agregar(9)">9</button></td>
+        <td><button id="mult" value="X" onclick="agregar('*')">X</button></td>
+    </tr>
+    <tr>
+        <td><button id="n4" value="4" onclick="agregar(4)">4</button></td>
+        <td><button id="n5" value="5" onclick="agregar(5)">5</button></td>
+        <td><button id="n6" value="6" onclick="agregar(6)">6</button></td>
+        <td><button id="resta" value="-" onclick="agregar('-')">-</button></td>
+    </tr>
+    <tr>
+        <td><button id="n1" value="1" onclick="agregar(1)">1</button></td>
+        <td><button id="n2" value="2" onclick="agregar(2)">2</button></td>
+        <td><button id="n3" value="3" onclick="agregar(3)">3</button></td>
+        <td><button id="sum" value="+" onclick="agregar('+')">+</button></td>
+    </tr>
+    <tr>
+        <td><button id="reset" value="0" onclick="resetear()">R</button></td>
+        <td><button id="n0" value="0" onclick="agregar(0)">0</button></td>
+        <td><button id="division" value="0" onclick="agregar('/')">/</button></td>
+        <td><button id="igual" value="=" onclick="calcular()">=</button></td>
+    </tr>
+</table>
+
+
+</body>
+</html>

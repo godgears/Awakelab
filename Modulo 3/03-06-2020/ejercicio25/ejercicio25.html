@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 25</title>
+    <script src="Ejercicio25.js"></script>
+</head>
+<body>
+
+    Ingrese monto en pesos chilenos: <input type="text" name="clp" id="clp" value="0" /> <br/>
+
+    Seleccione un tipo de moneda:<br/>
+    dolar: <input type="radio" name="tipdivisa" id="dolar" /><br/>
+    euro 2: <input type="radio" name="tipdivisa" id="euro" /><br/>
+    yen: <input type="radio" name="tipdivisa" id="yen" /><br/>
+    libra: <input type="radio" name="tipdivisa" id="libra" /><br/>
+    real: <input type="radio" name="tipdivisa" id="real" /><br/>
+
+    <input type="button" name="boton" id="boton" value="Calcular" onclick="calcularmonto();" /><br/>
+
+    Valor transformado: <input type="text" name="otram" id="otram" value="0" readonly="readonly" /> <br/>
+
+    <div id="contenedor"></div>
+
+</body>
+</html>

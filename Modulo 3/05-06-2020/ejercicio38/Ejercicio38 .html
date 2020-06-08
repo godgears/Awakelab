@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Grupal 12</title>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/additional-methods.js"></script>
+
+
+
+</head>
+<body>
+
+    <form id="formulario" method="POST" action="">
+
+        Nombre: <input type="text" name="nombre" id="nombre" value="" /><br/>
+        Marca: <input type="text" name="marca" id="marca" value="" /><br/>
+        Modelo: <input type="text" name="modelo" id="modelo" value="" /><br/>
+        Stock: <input type="text" name="stock" id="stock" value="" /><br/>
+        Estado: 
+        <select name="estado" id="estado">
+            <option value="">Seleccione una opción</option>
+            <option value="1">Bueno</option>
+            <option value="2">Regular</option>
+            <option value="3">Seleccione una opción</option>
+        </select>
+        <br/>
+        Color: <input type="text" name="color" id="color" value="" /><br/>
+
+        <input type="submit" name="boton" id="boton" value="Procesar" />
+
+    </form>
+
+    <script>
+        //$(document).ready(function(){
+
+            //$("#boton").click(function(){
+                //alert("Validamos");
+                $("#formulario").validate({
+                    rules: {
+                        nombre: "required",
+                        marca: "required",
+                        modelo: {
+                            required: true,
+                            minlength: 5,
+                            maxlength: 10
+                        }
+                    }
+                });
+            //});
+
+        //});
+
+        /*$().ready(function() {
+		    $("#commentForm").validate();
+        }*/
+    </script>
+
+</body>
+</html>
