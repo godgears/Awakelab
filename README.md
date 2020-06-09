@@ -1,8 +1,12 @@
 # Modulo 3 Awakelab FUNDAMENTOS DE DESARROLLO WEB 
 
+<<<<<<< HEAD
 _Favor Ultilizar este Link para entrar _
 
 ##https://github.com/godgears/Awakelab/tree/Modulo3
+=======
+_Favor Ultilizar este Link para entrar_
+>>>>>>> 25142367a5fe52bdc62016a9c259463bc580350f
 
 ## Comenzando 🚀
 

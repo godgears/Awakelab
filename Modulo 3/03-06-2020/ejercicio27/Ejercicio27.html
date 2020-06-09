@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script src="Ejercicio27.js"> 
+    </script>
+    <style>
+        .error{
+            border: solid 2px #FF0000;
+        }
+    </style>
+</head>
+<header>
+    <h1>Formulario</h1>
+</header>
+<body>
+    <form id="formulario">
+       <div><label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"/><br>
+    </div>
+    <div>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido"/><br>
+    </div> 
+    <div>
+        <label for="nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="fecha" /><br>
+    </div>
+    <div>
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono"/><br>
+       
+    </div>
+    <div>
+        <label for="educacion">Nivel Educacional:</label> <select name="educación">
+            <option>1° básico</option>
+            <option>2° básico</option>
+            <option>3° básico</option>
+            <option>4° básico</option>
+            <option>5° básico</option>
+            <option>6° básico</option>
+            <option>7° básico</option>
+            <option>8° básico</option>
+            <option>1° Medio</option>
+            <option>2° Medio</option>
+            <option>3° Medio</option>
+            <option>4° Medio</option>
+        </select><br>
+    </div>
+    <div>
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion"/><br>
+    </div>
+    <div>
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad"/><br>
+    </div>
+    <div>
+        <label for="region">Región:</label><select name="region" id="region">
+            <option value="">Seleccione una opción</option>
+            <option value="1">Región I</option>
+            <option value="2">Región II</option>
+            <option value="3">Región III</option>
+            <option value="4">Región IV</option>
+            <option value="5">Región V</option>
+            <option value="6">Región VI</option>
+            <option value="7">Región VII</option>
+            <option value="8">Región VIII</option>
+            <option value="9">Región IX</option>
+            <option value="10">Región X</option>
+            <option value="11">Región XI</option>
+            <option value="12">Región XII</option>
+            <option value="13">Región XIII</option>
+            <option value="14">Región XIV</option>
+            <option value="15">Región XV</option>
+            <option value="16">Región XVI</option>
+        </select>
+    </div>
+    <div id="error"></div>
+    </form>
+</body>
+    </html>
+
+<input type="submit" id="procesar" onclick="return validar();" value="Procesar" />
+<!--<input type="submit" id="procesar" onclick="return validaApellido();" value="Procesar" />-->
+<!--<button id="boton" name="boton" onclick=" return validacion();">Procesarr</button>-->
+
+
