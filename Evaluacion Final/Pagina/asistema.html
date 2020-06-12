@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Sistema</title>
+        <title>Sistema Administrador</title>
         <link href="css/styles.css" rel="stylesheet" />
         <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
-        <script src="//cdn.datatables.net/plug-ins/1.10.21/i18n/Spanish.json"></script>
     </head>
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
@@ -27,7 +26,7 @@
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
                         <a class="dropdown-item" href="perfil.html">Perfil</a><a class="dropdown-item" href="sistema.html">Registro Usuarios</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="index.html">Cerrar Sesion</a>
+                        <a class="dropdown-item" onclick="alerta();">Cerrar Sesion</a>
                     </div>
                 </li>
             </ul>
@@ -77,7 +76,9 @@
                         </ol>
             
                         <div class="card mb-4">
-                            <div class="card-header"><i class="fas fa-table mr-1"></i>Ejemplo Registro</div>
+                            <div class="card-header"><i class="fas fa-table mr-1"></i>Registro Usuarios &nbsp&nbsp&nbsp
+                                <a href="asistema.html"><i class="fas fa-user mr-1"></i>Volver como Usuario</a>
+                            </div>
                             <div class="card-body">
                                 <div class="table-responsive">
                                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
@@ -236,14 +237,12 @@
                         </div>
                     </div>
                 </main>
-                <footer class="py-4 bg-light mt-auto">
-                    <div class="container-fluid">
-                        <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2019</div>
-                           
-                        </div>
+                <footer class="py-5 bg-dark">
+                    <div class="container">
+                      <p class="m-0 text-center text-white">SantiagoPost 2020, Copyright Todos los derechos reservados.</p>
                     </div>
-                </footer>
+                    <!-- /.container -->
+                  </footer>
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
@@ -252,5 +251,6 @@
         <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
         <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
         <script src="assets/demo/datatables-demo.js"></script>
+        <script src="js/mensaje.js"></script>
     </body>
 </html>
