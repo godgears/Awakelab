@@ -15,10 +15,10 @@ public class Login extends HttpServlet {
  
     // This Method Is Called By The Servlet Container To Process A 'POST' Request.
     public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-    	doGET(req, resp);
+    	handleRequest(req, resp);
     }
  
-    public void doGET(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+    public void handleRequest(HttpServletRequest req, HttpServletResponse resp) throws IOException {
  
         resp.setContentType("text/html");
  

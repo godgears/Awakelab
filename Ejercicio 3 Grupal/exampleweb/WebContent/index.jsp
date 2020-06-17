@@ -12,7 +12,7 @@
     <body>
         <center>
             <h2>Servlet Application Login Example</h2>
-            <form id="loginFormId" name="loginForm" method="post" action="loginServlet">
+            <form id="loginFormId" name="loginForm" method="get" action="loginServlet">
                 <div id="usernameDiv" class="paddingBtm">
                     <span id="user">Username: </span><input type="text" name="username" />
                 </div>
